@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "PublicSansRegular";
+  src: url("../public/fonts/static/PublicSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PublicSansBold";
+  src: url("../public/fonts/static/PublicSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PublicSansLight";
+  src: url("./public/fonts/static/PublicSans-Light.ttf") format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PublicSansRegularVariable";
+  src: url("../public/fonts/PublicSans-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "PublicSansRegularVariableItalic";
+  src: url("../public/fonts/PublicSans-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
