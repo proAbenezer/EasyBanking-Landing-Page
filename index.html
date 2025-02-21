@@ -7,7 +7,87 @@
     <title>Easybank landing page</title>
     <link rel="stylesheet" href="./main/output.css" />
   </head>
-  <body>
-    <div class="container mx-auto flex flex-col gap-y-28 px-6"></div>
+  <body class="h-[500vh] bg-GrayishBlue">
+    <div class="flex flex-col bg-white">
+      <header class="w-full flex flex-col">
+        <nav class="fixed z-50 w-full bg-white py-3 px-3 border-b border-white">
+          <div class="container mx-auto flex items-center justify-between">
+            <img src="./public/images/logo.svg" alt="logo image" class="w-40" />
+            <ul class="hidden gap-6 lg:flex">
+              <li>
+                <a href="#" class="font-public text-md text-DarkBlue">Home</a>
+              </li>
+              <li>
+                <a href="#" class="font-public text-md text-DarkBlue">About</a>
+              </li>
+              <li>
+                <a href="#" class="font-public text-md text-DarkBlue"
+                  >Contact</a
+                >
+              </li>
+
+              <li>
+                <a href="#" class="font-public text-md text-DarkBlue">Blog</a>
+              </li>
+
+              <li>
+                <a href="#" class="font-public text-md text-DarkBlue"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+            <a
+              href="#"
+              class="w-40 hidden items-center justify-center px-2 py-2 bg-gradient-to-r from-LimeGreen to-BrightCyan font-publicBold text-white text-lg rounded-full lg:flex"
+              >Request Invite</a
+            >
+            <img
+              src="./public/images/icon-hamburger.svg"
+              alt="menu bar"
+              class="block lg:hidden cursor-pointer"
+            />
+          </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="hero" class="w-full h-screen bg-LightGrayishBlue">
+          <div
+            class="relative flex flex-col-reverse items-center overflow-hidden lg:flex-row-reverse lg:justify-between lg:items-center"
+          >
+            <!-- Image Container -->
+            <div
+              id="hero-intro"
+              class="relative w-full h-[400px] lg:w-[60vw] lg:h-screen"
+            >
+              <img
+                src="./public/images/image-mockups.png"
+                alt="mockups"
+                class="absolute bottom-[-5vh] right-[-10vw] h-[130%] lg:h-[120%]"
+              />
+            </div>
+
+            <!-- Text Content -->
+            <div
+              class="max-w-sm flex flex-col items-center text-center gap-y-6 w-full px-6 lg:w-1/2 lg:text-left lg:ml-[5vw]"
+            >
+              <h1 class="text-3xl lg:text-5xl font-bold text-DarkBlue">
+                Next generation digital banking
+              </h1>
+              <p class="text-gray-600 text-lg">
+                Take your financial life online. Your Easybank account will be a
+                one-stop-shop for spending, saving, budgeting, investing, and
+                much more.
+              </p>
+              <a
+                href="#"
+                class="w-40 flex items-center justify-center px-2 py-2 bg-gradient-to-r from-LimeGreen to-BrightCyan font-publicBold text-white text-lg rounded-full"
+              >
+                Request Invite
+              </a>
+            </div>
+          </div>
+        </section>
+      </header>
+    </div>
   </body>
 </html>
